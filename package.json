@@ -1,5 +1,6 @@
 {
   "name": "asian-american-awareness-project",
+  "homepage": "https://tecboyj.github.com/asian-american-awareness-project/",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -9,13 +10,16 @@
     "lint": "eslint .",
     "format": "prettier --write \"**/*.{ts,tsx}\"",
     "typecheck": "tsc --noEmit",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "bun run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fontsource-variable/inter": "^5.2.8",
     "@tailwindcss/vite": "^4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^1.17.0",
     "radix-ui": "^1.5.0",
     "react": "^19.2.6",
