@@ -15,7 +15,7 @@ export default function App() {
       </Card>
       <Card>
         <img
-          src="asian-american-awareness-project/fonda-lee.jpg"
+          src={`${import.meta.env.BASE_URL}fonda-lee.jpg`}
           alt="Fonda Lee"
           className="flex w-full max-w-sm"
         />
