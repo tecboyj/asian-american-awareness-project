@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
 export default function App() {
   return (
-    <div className="flex items-center justify-center gap-4 p-4">
+    <div className="flex items-center justify-center gap-4 bg-green-800 p-4">
       <Card className="max-w-xl">
         <CardHeader>
           <CardTitle>Jade City Review</CardTitle>
